@@ -1,0 +1,167 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "To Kill a Mockingbird",
+        "coverImage": "https://covers.openlibrary.org/b/id/8226196-L.jpg",
+        "price": 2159.65,
+        "rating": 4.5,
+        "genre": "Classic"
+      },
+      {
+        "id": 2,
+        "title": "The Great Gatsby",
+        "coverImage": "https://covers.openlibrary.org/b/id/7201195-L.jpg",
+        "price": 1488.65,
+        "rating": 4.4,
+        "genre": "Classic"
+      },
+      {
+        "id": 3,
+        "title": "Pride and Prejudice",
+        "coverImage": "https://covers.openlibrary.org/b/id/8221290-L.jpg",
+        "price": 1214.15,
+        "rating": 4.6,
+        "genre": "Romance"
+      },
+      {
+        "id": 4,
+        "title": "The Catcher in the Rye",
+        "coverImage": "https://covers.openlibrary.org/b/id/8221227-L.jpg",
+        "price": 1619.85,
+        "rating": 4.2,
+        "genre": "Fiction"
+      },
+      {
+        "id": 5,
+        "title": "The Hobbit",
+        "coverImage": "https://covers.openlibrary.org/b/id/7830012-L.jpg",
+        "price": 2022.15,
+        "rating": 4.8,
+        "genre": "Fantasy"
+      },
+      {
+        "id": 6,
+        "title": "Animal Farm",
+        "coverImage": "https://covers.openlibrary.org/b/id/7984916-L.jpg",
+        "price": 1079.15,
+        "rating": 4.6,
+        "genre": "Political"
+      },
+      {
+        "id": 7,
+        "title": "Les Misérables",
+        "coverImage": "https://covers.openlibrary.org/b/id/7202358-L.jpg",
+        "price": 2833.65,
+        "rating": 4.7,
+        "genre": "Historical"
+      },
+      {
+        "id": 8,
+        "title": "Dune",
+        "coverImage": "https://covers.openlibrary.org/b/id/7232085-L.jpg",
+        "price": 2081.65,
+        "rating": 4.6,
+        "genre": "Science Fiction"
+      },
+      {
+        "id": 9,
+        "title": "The Lord of the Rings",
+        "coverImage": "https://covers.openlibrary.org/b/id/7801506-L.jpg",
+        "price": 3374.15,
+        "rating": 4.8,
+        "genre": "Fantasy"
+      },
+      {
+        "id": 10,
+        "title": "Wuthering Heights",
+        "coverImage": "https://covers.openlibrary.org/b/id/8230097-L.jpg",
+        "price": 1754.65,
+        "rating": 4.2,
+        "genre": "Romance"
+      },
+      {
+        "id": 11,
+        "title": "The Shining",
+        "coverImage": "https://covers.openlibrary.org/b/id/8232606-L.jpg",
+        "price": 1899.15,
+        "rating": 4.6,
+        "genre": "Horror"
+      },
+      {
+        "id": 12,
+        "title": "The Chronicles of Narnia",
+        "coverImage": "https://covers.openlibrary.org/b/id/8201856-L.jpg",
+        "price": 2423.65,
+        "rating": 4.7,
+        "genre": "Fantasy"
+      },
+      {
+        "id": 13,
+        "title": "Little Women",
+        "coverImage": "https://covers.openlibrary.org/b/id/8232614-L.jpg",
+        "price": 1488.65,
+        "rating": 4.5,
+        "genre": "Classic"
+      },
+      {
+        "id": 14,
+        "title": "Gone with the Wind",
+        "coverImage": "https://covers.openlibrary.org/b/id/7222124-L.jpg",
+        "price": 1902.65,
+        "rating": 4.4,
+        "genre": "Historical"
+      },
+      {
+        "id": 15,
+        "title": "The Da Vinci Code",
+        "coverImage": "https://covers.openlibrary.org/b/id/7221812-L.jpg",
+        "price": 2159.65,
+        "rating": 4.3,
+        "genre": "Thriller"
+      },
+      {
+        "id": 16,
+        "title": "The Alchemist",
+        "coverImage": "https://covers.openlibrary.org/b/id/8201847-L.jpg",
+        "price": 1681.65,
+        "rating": 4.6,
+        "genre": "Adventure"
+      },
+      {
+        "id": 17,
+        "title": "The Girl with the Dragon Tattoo",
+        "coverImage": "https://covers.openlibrary.org/b/id/8222048-L.jpg",
+        "price": 1811.15,
+        "rating": 4.3,
+        "genre": "Mystery"
+      },
+      {
+        "id": 18,
+        "title": "The Hunger Games",
+        "coverImage": "https://covers.openlibrary.org/b/id/8220988-L.jpg",
+        "price": 1619.85,
+        "rating": 4.7,
+        "genre": "Science Fiction"
+      },
+      {
+        "id": 19,
+        "title": "The Kite Runner",
+        "coverImage": "https://covers.openlibrary.org/b/id/8231771-L.jpg",
+        "price": 1754.65,
+        "rating": 4.6,
+        "genre": "Drama"
+      },
+      {
+        "id": 20,
+        "title": "Life of Pi",
+        "coverImage": "https://covers.openlibrary.org/b/id/8217653-L.jpg",
+        "price": 1899.15,
+        "rating": 4.4,
+        "genre": "Adventure"
+      }
+    ],
+    "cart": [],
+    "favorites": []
+  }
+  
