@@ -8,7 +8,7 @@ function Cart() {
     fetch('http://localhost:3000/cart')
       .then(response => response.json())
       .then(data => setCart(data));
-  }, []); 
+  }, []);
 
   const removeFromCart = (bookId) => {
     setCart(cart.filter(book => book.id !== bookId));
