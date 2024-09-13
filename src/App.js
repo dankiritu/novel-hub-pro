@@ -5,7 +5,7 @@ import BookList from './components/BookList';
 import Cart from './components/Cart';
 import Favorites from './components/Favorites';
 import Form from './components/Form';
-import './styles.css';
+import '../index.css';
 
 function App() {
   return (
