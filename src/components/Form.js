@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+const URL = process.env.REACT_APP_BASEURL
+
 function Form() {
   const [title, setTitle] = useState('');
   const [coverImage, setCoverImage] = useState('');
@@ -18,7 +20,7 @@ function Form() {
       genre
     };
 
-    fetch('http://localhost:3001/books', {
+    fetch(`https://novel-hub-pro-db.onrender.com/books`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

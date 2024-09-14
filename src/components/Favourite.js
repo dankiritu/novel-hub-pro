@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
+const URL = process.env.REACT_APP_BASEURL
+
 function Favorites() {
   const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
     // This can be replaced with actual fetch from a server
-    fetch('http://localhost:3001/favorites')
+    fetch(`https://novel-hub-pro-db.onrender.com/favorites`)
       .then(response => response.json())
       .then(data => setFavorites(data));
   }, []);
