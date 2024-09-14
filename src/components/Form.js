@@ -18,7 +18,7 @@ function Form() {
       genre
     };
 
-    fetch('http://localhost:3000/books', {
+    fetch('http://localhost:3001/books', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

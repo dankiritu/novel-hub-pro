@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/NavBar';
 import BookList from './components/BookList';
 import Cart from './components/Cart';
-import Favorites from './components/Favorites';
+import Favorites from './components/Favourite';
 import Form from './components/Form';
-import '../index.css';
+import Index from './Index.css'
 
 function App() {
   return (

@@ -5,7 +5,7 @@ function Cart() {
 
   useEffect(() => {
     // This can be replaced with actual fetch from a server
-    fetch('http://localhost:3000/cart')
+    fetch('http://localhost:3001/cart')
       .then(response => response.json())
       .then(data => setCart(data));
   }, []);
