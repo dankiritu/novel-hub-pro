@@ -32,6 +32,7 @@ function Form() {
         console.log('Book added:', data);
         // Optionally clear form fields or redirect
       });
+
   };
 
   return (

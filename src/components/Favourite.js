@@ -1,9 +1,11 @@
+
 import React, { useState, useEffect } from 'react';
 
-const URL = process.env.REACT_APP_BASEURL
-
 function Favorites() {
-  const [favorites, setFavorites] = useState([]);
+  const [favorites, setFavorites] = useState(() => {
+    const savedFavorites = localStorage.getItem('favorites');
+    return savedFavorites ? JSON.parse(savedFavorites) : [];
+  });
 
   useEffect(() => {
     // This can be replaced with actual fetch from a server
@@ -12,19 +14,29 @@ function Favorites() {
       .then(data => setFavorites(data));
   }, []);
 
+
+  const removeFromFavorites = (bookId) => {
+    setFavorites(prevFavorites => prevFavorites.filter(book => book.id !== bookId));
+  };
+
   return (
     <div className="favorites">
       <h2>Favorites</h2>
-      {favorites.length === 0 ? <p>No favorite books yet.</p> : favorites.map(book => (
-        <div key={book.id} className="favorite-item">
-          <img src={book.coverImage} alt={book.title} className="book-cover" />
-          <div>
-            <h3>{book.title}</h3>
-            <p>Price: KES {book.price.toFixed(2)}</p>
-            <p>Rating: {book.rating} ★</p>
+      {favorites.length === 0 ? (
+        <p>You haven't added any favorites yet.</p>
+      ) : (
+        favorites.map(book => (
+          <div key={book.id} className="favorite-item">
+            <img src={book.coverImage} alt={book.title} className="book-cover" />
+            <div>
+              <h3>{book.title}</h3>
+              <p>Price: KES {book.price.toFixed(2)}</p>
+              <p>Rating: {book.rating} ★</p>
+              <button className="button remove" onClick={() => removeFromFavorites(book.id)}>Remove from Favorites</button>
+            </div>
           </div>
-        </div>
-      ))}
+        ))
+      )}
     </div>
   );
 }
