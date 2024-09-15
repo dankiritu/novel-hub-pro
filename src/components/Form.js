@@ -30,7 +30,7 @@ function Form() {
       .then(response => response.json())
       .then(data => {
         console.log('Book added:', data);
-        // Optionally clear form fields or redirect
+        
       });
 
   };
